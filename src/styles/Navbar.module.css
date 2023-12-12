@@ -1,0 +1,45 @@
+/* Cria um corpo para o Header e um espaçamento dos conteúdos abaixo, além de definir uma cor */
+.navbar {
+    padding: 1em 1.2em;
+    margin-bottom: 2em;
+    background-color: rgb(75, 161, 226);
+}
+/* Alinhar o logo e todo conteúdo que está na DIV um do lado para o outro, e também centraliza no eixo X e Y  */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_img {
+    transition: 1s;
+}
+.logo_img:hover {
+    scale: 1.2;
+}
+
+.logo h1 {
+    margin-left: .5em;
+}
+/* Também alinha os links um do lado do outro e retira os bullets que vem por padrão */
+.link_content {
+    display: flex;
+    list-style: none;
+}
+.link_content li {
+    margin-right: 1.3em;
+}
+
+/* Define a formatação dos links como a cor, retira o underline, os espaçamentos e define uma borda inferior */
+.link_content li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    transition: .4s;
+    border-bottom: 2px solid transparent;
+}
+.link_content li a:hover {
+    border-color: #fff;
+}
+
+
+
